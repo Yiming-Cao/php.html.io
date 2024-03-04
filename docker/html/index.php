@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/themain.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
@@ -23,11 +23,11 @@
                 <div class="menu">
                     <h1>MENU</h1>
                 </div>
-                <div class="login" type="button">
-                    <a href="pages/login.php">
-                    <h1>LOGIN</h1>
-                    </a>
-                </div>
+                <a href="pages/login.php">
+                    <div class="login" type="button">
+                        <h1>LOGIN</h1>
+                    </div>
+                </a>
                 <div class="go">
                     <svg width="82" height="10">
                         <line x1="10" y1="5" x2="72" y2="5" stroke="black" stroke-width="2" />
@@ -50,11 +50,28 @@
                     </h2>
                 </div>
                 <div class="vlak-1-bottom">
-
+                    <a href="pages/menu.php">
+                        <div class="login" type="button">
+                            <h1>MENU</h1>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="vlak-1-right">
                 <img src="image/Star 1.png" alt="">
+            </div>
+        </div>
+        <div class="vlak-2">
+            <div class="vlak-2-in">
+                <div class="vlak-2-img">
+                    
+                </div>
+                <div class="vlak-2-img">
+                    
+                </div>
+                <div class="vlak-2-img">
+                    
+                </div>
             </div>
         </div>
     </div>

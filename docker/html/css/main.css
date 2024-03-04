@@ -86,6 +86,7 @@ h1{
     width: 100%;
     display: flex;
     flex-direction: row;
+   
 }
 .vlak-1-left{
     width: 40%;
@@ -94,6 +95,7 @@ h1{
     flex-direction: column;
     margin-top: 120px;
     align-items: center;
+    margin-right: 10%;
 }
 .vlak-1-text{
     height: 412px;
@@ -106,4 +108,36 @@ h2{
     font-family: "Caveat", cursive;
     font-size: 120px;
 
+}
+
+.vlak-1-bottom{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.vlak-1-right{
+    margin-right: 3%;
+}
+
+.vlak-2{
+    height: 100%;
+    width: 100%;
+    background-image: url('/image/backimg.png');
+    background-size: cover;
+}
+.vlak-2-in{
+    height: 1180px;
+    width: 91%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vlak-2-img{
+    height: 1180px;
+    width: 517px;
+    background-image: url('/image/chief.1.png');
+    background-size: cover;
 }
