@@ -14,9 +14,7 @@
     <div class="header">
             <div class="headerRight">
                 <div class="logo">
-                    <svg width="140" height="140">
-                        <circle cx="70" cy="70" r="60" stroke="none" stroke-width="3" fill="#F6D6C3" />
-                    </svg>
+                    <img src="image/logo-yeet.png" alt="" class="logo">
                 </div>
             </div>
             <div class="headerLeft">
@@ -63,17 +61,54 @@
         </div>
         <div class="vlak-2">
             <div class="vlak-2-in">
-                <div class="vlak-2-img">
-                    
+                <div class="vlak-2-img1">
+                    <h3>Het beste chief op het wereld</h3>
                 </div>
-                <div class="vlak-2-img">
-                    
+                <div class="vlak-2-img2">
+                    <h3>Je kan samen met jouw vrienden eten</h3>
                 </div>
-                <div class="vlak-2-img">
-                    
+                <div class="vlak-2-img3">
+                    <h3>Wij heb thuisbezorg naar jouw huis</h3>
+                </div>
+            </div>
+            <div class="vlak-2-end">
+                <div class="vlak-2-text">
+                    <h4>Open uren</h4>
+                    <h4>Ma  12:00 tot 21:30</h4>
+                    <h4>Di  12:00 tot 21:30</h4>
+                    <h4>Wo  12:00 tot 21:30</h4>
+                    <h4>Do  12:00 tot 21:30</h4>
+                    <h4>Fr  12:00 tot 21:30</h4>
+                    <h4>Sa  12:00 tot 21:30</h4>
+                    <h4>Zo  12:00 tot 21:30</h4>
+                </div>
+                <div class="vlak-2-text2">
+                    <h5>Yeet</h5>
+                    <h4>
+                        Heyendaalseweg 22
+                    </h4>
+                    <h4>
+                        6542 XX Nijmegen
+                    </h4>
+                    <h4>
+                        +31 6 42 12 09 88
+                    </h4>
+                    <h4>
+                        info@yeet-nijmegen.nl
+                    </h4>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="footer-vlak">
+                Follow US
+            </div>
+            <div class="footer-vlak">
+                <div class="footer-vlak-in">
+
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
