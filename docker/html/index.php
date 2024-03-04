@@ -23,8 +23,10 @@
                 <div class="menu">
                     <h1>MENU</h1>
                 </div>
-                <div class="login">
+                <div class="login" type="button">
+                    <a href="pages/login.php">
                     <h1>LOGIN</h1>
+                    </a>
                 </div>
                 <div class="go">
                     <svg width="82" height="10">
@@ -52,7 +54,7 @@
                 </div>
             </div>
             <div class="vlak-1-right">
-                <img src="image/Frame 7.png" alt="">
+                <img src="image/Star 1.png" alt="">
             </div>
         </div>
     </div>
