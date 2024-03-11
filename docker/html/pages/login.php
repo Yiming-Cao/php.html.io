@@ -3,30 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/main1.css">
+    <title>Login</title>
 </head>
 <body>
-    <form class="register_form" name="register" method="POST" action="register.php">
-        <h3>Register</h3>
-        <div class="row">
-            <p>Naam: </p>
-            <input type="text" name="naam" /> 
-        </div>
-        <div class="row">
-            <p>Leeftijd: </p>
-            <input type="number" name="leeftijd" /> 
-        </div>
-        <div class="row">
-            <p>Algemene voorwaarden: </p>
-            <input type="checkbox" name="av" /> 
-        </div>
-        <div class="row">
-            <p>Geslacht: </p>
-            <input type="text" name="geslacht" /> 
-        </div>
-        <div class="row">
-            <input type="submit" name="submit" /> 
-        </div>
-    </form>
+    <div class="login-vlak">
+        <form action="login_logic.php" name="login_logic" method="POST" class="vlak-login">
+            <label for="">Username:</label>
+            <input type="text" name="username" placeholder="Username" required>
+            <label for="">Password: </label>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="login">
+            
+        </form>
+    </div>
+    
 </body>
-</html>
+</html> 
