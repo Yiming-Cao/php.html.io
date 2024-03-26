@@ -14,6 +14,9 @@
             <label for="">Password: </label>
             <input type="password" name="password" placeholder="Password" required>
             <input type="submit" value="login">
+            <a href="register.php">
+                <input type="button" value="register">
+            </a>
             
         </form>
     </div>
