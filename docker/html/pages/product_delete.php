@@ -26,14 +26,10 @@ $product = $stmt->fetch();
     
     ?>
     <div class="login-vlak">
-        <form action="product_update_logic.php" name="product_update_logic" method="POST" class="vlak-login">
+        <form action="product_delete_logic.php" name="product_delete_logic" method="POST" class="vlak-login">
             <label for="">Id van product: </label>
-            <input type="text" name="id_product" value="<?php echo $product['id'];?>" required>
-            <label for="">Naam van product: </label>
-            <input type="text" name="naam" value="<?php echo $product['naam'];?>" required>
-            <label for="">Prijs van product: </label>
-            <input type="text" name="prijs" value="<?php echo $product['prijs'];?>" required>
-            <input type="submit" value="update product">
+            <input type="text" name="id_product" placeholder="Productname" required>
+            <input type="submit" value="delete_product">
             
         </form>
     </div>

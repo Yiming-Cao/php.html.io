@@ -12,17 +12,18 @@ $password = $_POST["password"];
 
 $stmt = $connection->prepare("SELECT * FROM user WHERE username=:user AND password=:pass");
 $stmt->execute(["user"=> $username,"pass"=> $password]);
-$user = $stmt->fetch();
+$result = $stmt->fetch();
 
 
-if (!$user) {
+if (!$result) {
    
     header("Location: login.php");
     exit();
 } else {
-  
+    
     $_SESSION["user"] = $username;
-    header("Location: dashboard.php");
+    $_SESSION['loggedin'] = true;
+    header("Location: menu.php");
     exit();
 }
 

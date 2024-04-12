@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main1.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,11 +24,19 @@
                         <h1>MENU</h1>
                     </div>
                 </a>
-                <a href="../pages/login.php">
-                    <div class="login" type="button" >
-                        <h1>LOGIN</h1>
-                    </div>
-                </a>
+                <?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
+                    <a href="../pages/logout_logic.php">
+                        <div class="logout" type="button" >
+                            <h1>LOGOUT</h1>
+                        </div>
+                    </a>
+                <?php else: ?>
+                    <a href="../pages/login.php">
+                        <div class="login" type="button" >
+                            <h1>LOGIN</h1>
+                        </div>
+                    </a>
+                <?php endif; ?>
                 <a href="../index.php">
                     <div class="go">
                         <svg width="82" height="10">
